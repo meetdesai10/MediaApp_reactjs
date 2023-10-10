@@ -1,0 +1,85 @@
+.topbar {
+  border: 0.1px solid transparent;
+  background-color: blue;
+  .topBarWrapper {
+    margin: 20px 20px;
+    display: flex;
+    align-items: center;
+    .leftPart {
+      flex: 2;
+      .logo {
+        font-size: 27px;
+        color: white;
+      }
+    }
+    .centerPart {
+      flex: 3;
+      width: 100%;
+      background-color: white;
+      border-radius: 20px;
+
+      .search {
+        display: flex;
+        align-items: center;
+        margin: 5px;
+        .searchIcon {
+          font-size: 30px;
+          cursor: pointer;
+        }
+        input {
+          width: 100%;
+          border: none;
+          outline: none;
+          font-weight: bold;
+        }
+      }
+    }
+    .rightPart {
+      flex: 3;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+      .info {
+        margin-left: 10px;
+        display: flex;
+        gap: 10px;
+        font-size: 18px;
+        cursor: pointer;
+      }
+      .icons {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        .icon {
+          font-size: 25px;
+          cursor: pointer;
+          color: white;
+          position: relative;
+        }
+        .counter {
+          position: absolute;
+          top: -8px;
+          font-size: 14px;
+          background-color: red;
+          border-radius: 50%;
+          width: 18px;
+          height: 18px;
+          right: -5px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+      .ProfilePicture {
+        img {
+          height: 40px;
+          width: 40px;
+          object-fit: cover;
+          border-radius: 50%;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
