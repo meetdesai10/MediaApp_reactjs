@@ -1,9 +1,10 @@
 import React from "react";
 import "./Feed.scss";
+import Share from "../share/Share.jsx"
 export default function Feed() {
   return (
     <div className="feed">
-      <h1>Feed</h1>
+      <Share/>
     </div>
   );
 }

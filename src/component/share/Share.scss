@@ -1,0 +1,61 @@
+.share {
+  padding: 15px;
+  margin: 15px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 19px -4px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 19px -4px rgba(0, 0, 0, 0.68);
+  .shareWrapper {
+    margin: 20px;
+    .shareTop {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      img {
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+      input {
+        height: 40px;
+        width: 90%;
+        font-size: 16px;
+        border: none;
+        outline: none;
+      }
+    }
+    .HRline {
+      margin-top: 10px;
+    }
+  }
+  .shareBottom {
+    margin: 20px 0px;
+    .shareOptions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .shareOption {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        cursor: pointer;
+        .shareOptionIcon {
+          font-size: 30px;
+        }
+        .shareOptionText {
+          font-size: 16px;
+          font-weight: 500;
+        }
+      }
+      .sharebtn {
+        padding: 6px 20px;
+        background-color: green;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    }
+  }
+}
