@@ -3,6 +3,8 @@
     padding: 20px;  
     height: calc(100vh - 55px);
     overflow-y: scroll;
+    position: sticky;
+    top: 60px;
     .sideBarWrapper{
         margin: 10px;
         .sideBarList{

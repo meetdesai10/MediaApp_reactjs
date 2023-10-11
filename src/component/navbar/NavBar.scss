@@ -1,6 +1,9 @@
 .topbar {
   border: 0.1px solid transparent;
   background-color: blue;
+  width: 100%;
+  position: sticky;
+  top: 0;
   .topBarWrapper {
     margin: 5px 20px;
     display: flex;
