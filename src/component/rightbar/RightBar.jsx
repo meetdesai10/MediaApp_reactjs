@@ -1,5 +1,5 @@
 import React from 'react'
-import "./RightBar.jsx"
+import "./RightBar.scss"
 export default function RightBar() {
   return (
     <div className='rightBar'>
