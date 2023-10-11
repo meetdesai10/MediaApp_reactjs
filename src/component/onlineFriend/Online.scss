@@ -1,0 +1,27 @@
+.online {
+  .onlineFriend {
+    margin-top: 25px;
+    .onlineFriendlist {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap: 10px;
+      img {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        position: relative;
+      }
+      .greenIndicator{
+        position: absolute;
+        height: 17px;
+        width: 17px;
+        right: 395px;
+        margin-top: -28px;
+        border-radius: 50%;
+        border: 2px solid white;
+        background-color: green;
+      }
+    }
+  }
+}
