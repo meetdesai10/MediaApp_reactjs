@@ -14,9 +14,11 @@
       width: 40px;
       object-fit: cover;
       border-radius: 50%;
+      cursor: pointer;
     }
     .userName {
       font-weight: 500;
+      cursor: pointer;
     }
     .uploadTime {
       color: grey;
@@ -51,6 +53,7 @@
       display: flex;
       align-items: center;
       gap: 5px;
+      cursor: pointer;
       .commentCounter {
         font-size: 20px;
         font-weight: 500;
