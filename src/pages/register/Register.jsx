@@ -1,5 +1,6 @@
 import React from "react";
 import "./Register.scss";
+import { Link } from "react-router-dom";
 export default function Register() {
   return (
     <div className="login">
@@ -17,7 +18,9 @@ export default function Register() {
             <input placeholder="Password" className="loginInput" />
             <input placeholder="Password Again" className="loginInput" />
             <button className="loginBtn">Sign Up</button>
-            <button className="loginResBtn">Log into your account</button>
+            <Link style={{textAlign:"center"}} to={"/login"}>
+              <button className="loginResBtn">Log into your account</button>
+            </Link>
           </div>
         </div>
       </div>
