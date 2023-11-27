@@ -8,7 +8,7 @@ export default function NavBar() {
       <div className="topBarWrapper">
         <div className="leftPart">
           <Link style={{textDecoration:"none"}} to={"/"}>
-            <h2 className="logo">LamaSocial</h2>
+            <h2 className="logo">SocialMedia</h2>
           </Link>
         </div>
         <div className="centerPart">
