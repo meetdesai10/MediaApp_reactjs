@@ -10,6 +10,7 @@ export default function App() {
       {/* <Profile/> */}
       {/* <Login /> */}
       {/* <Register/> */}
+      <link rel="stylesheet" href="./" />
     </div>
   );
 }
